@@ -1,0 +1,24 @@
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+
+   Illuminate\Contracts\Container\BindingResolutionException 
+
+  Target class [Ribafs\CrudGeneratorAcl\Commands\CrudModelCommand] does not exist.
+
+  at vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+    807▕ 
+    808▕         try {
+    809▕             $reflector = new ReflectionClass($concrete);
+    810▕         } catch (ReflectionException $e) {
+  ➜ 811▕             throw new BindingResolutionException("Target class [$concrete] does not exist.", 0, $e);
+    812▕         }
+    813▕ 
+    814▕         // If the type is not instantiable, the developer is attempting to resolve
+    815▕         // an abstract type such as an Interface or Abstract Class and there is
+
+      +13 vendor frames 
+  14  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+Script @php artisan package:discover --ansi handling the post-autoload-dump event returned with error code 1
+
+Installation failed, reverting ./composer.json to its original content.
