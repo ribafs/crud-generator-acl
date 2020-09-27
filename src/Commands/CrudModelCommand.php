@@ -10,7 +10,7 @@ class CrudModelCommand extends GeneratorCommand
      *
      * @var string
      */
-    protected $signature = 'crud:model
+    protected $signature = 'crud-acl:model
                             {name : The name of the model.}
                             {--table= : The name of the table.}
                             {--fillable= : The names of the fillable columns.}
