@@ -10,7 +10,7 @@ class CrudMigrationCommand extends GeneratorCommand
      *
      * @var string
      */
-    protected $signature = 'crud:migration
+    protected $signature = 'crud-acl:migration
                             {name : The name of the migration.}
                             {--schema= : The name of the schema.}
                             {--indexes= : The fields to add an index to.}
