@@ -3,7 +3,7 @@
 ### CRUD Command
 
 ```
-php artisan crud:generate Posts --fields='title#string; content#text; category#select#options={"technology": "Technology", "tips": "Tips", "health": "Health"}' --view-path=admin --controller-namespace=App\\Http\\Controllers\\Admin --route-group=admin --form-helper=html
+php artisan crud-acl:generate Posts --fields='title#string; content#text; category#select#options={"technology": "Technology", "tips": "Tips", "health": "Health"}' --view-path=admin --controller-namespace=App\\Http\\Controllers\\Admin --route-group=admin --form-helper=html
 ```
 
 #### CRUD fields from a JSON file:
@@ -58,7 +58,7 @@ php artisan crud:generate Posts --fields='title#string; content#text; category#s
 ```
 
 ```
-php artisan crud:generate Posts --fields_from_file="/path/to/fields.json" --view-path=admin --controller-namespace=App\\Http\\Controllers\\Admin --route-group=admin --form-helper=html
+php artisan crud-acl:generate Posts --fields_from_file="/path/to/fields.json" --view-path=admin --controller-namespace=App\\Http\\Controllers\\Admin --route-group=admin --form-helper=html
 ```
 
 ### Other Commands
@@ -66,25 +66,25 @@ php artisan crud:generate Posts --fields_from_file="/path/to/fields.json" --view
 For controller:
 
 ```
-php artisan crud:controller PostsController --crud-name=posts --model-name=Post --view-path="directory" --route-group=admin
+php artisan crud-acl:controller PostsController --crud-name=posts --model-name=Post --view-path="directory" --route-group=admin
 ```
 
 For model:
 
 ```
-php artisan crud:model Post --fillable="['title', 'body']"
+php artisan crud-acl:model Post --fillable="['title', 'body']"
 ```
 
 For migration:
 
 ```
-php artisan crud:migration posts --schema="title#string; body#text"
+php artisan crud-acl:migration posts --schema="title#string; body#text"
 ```
 
 For view:
 
 ```
-php artisan crud:view posts --fields="title#string; body#text" --view-path="directory" --route-group=admin --form-helper=html
+php artisan crud-acl:view posts --fields="title#string; body#text" --view-path="directory" --route-group=admin --form-helper=html
 ```
 
 By default, the generator will attempt to append the crud route to your ```Route``` file. If you don't want the route added, you can use this option ```--route=no```.
@@ -102,16 +102,16 @@ Route::resource('posts', 'PostsController');
 
 ### API Commands
 
-For api crud:
+For api crud-acl:
 
 ```
-php artisan crud:api Posts --fields='title#string; content#text' --controller-namespace=Api
+php artisan crud-acl:api Posts --fields='title#string; content#text' --controller-namespace=Api
 ```
 
 For api controller:
 
 ```
-php artisan crud:api-controller Api\\PostsController --crud-name=posts --model-name=Post
+php artisan crud-acl:api-controller Api\\PostsController --crud-name=posts --model-name=Post
 ```
 
 ### File Upload
