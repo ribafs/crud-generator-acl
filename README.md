@@ -11,6 +11,8 @@ This Generator package provides various generators like CRUD, API, Controller, M
 
 This fork have changes to appzcoder/crud-generator:
 - Change ```html<td>{{ $loop->iteration }}</td>``` to ```html<td>{{ $item->id }}</td>``` in src/stubs/views/html/index.blade.stub
+- Change ```html<table class="table">``` to ```html<table class="table table-sm">``` in src/stubs/views/html/index.blade.stub
+- Add orderBy() to controller
 - Add folder includes in publish/views
 - and others
 
