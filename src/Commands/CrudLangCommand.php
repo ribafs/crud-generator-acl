@@ -11,7 +11,7 @@ class CrudLangCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'crud:lang
+    protected $signature = 'crud-acl:lang
                             {name : The name of the Crud.}
                             {--fields= : The field names for the form.}
                             {--locales=en : The locale for the file.}';
