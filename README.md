@@ -8,6 +8,7 @@
 This Generator package provides various generators like CRUD, API, Controller, Model, Migration, View for your painless development of your applications.
 
 ## Warning
+If you have ribafs/crud-generator installed please uninstall it before installing this ribafs/crud-generator-acl.
 
 This fork have changes to appzcoder/crud-generator:
 - Change ```html<td>{{ $loop->iteration }}</td>``` to ```html<td>{{ $item->id }}</td>``` in src/stubs/views/html/index.blade.stub
