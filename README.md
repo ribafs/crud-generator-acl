@@ -14,6 +14,7 @@ This fork have changes to appzcoder/crud-generator:
 - Change ```html<table class="table">``` to ```html<table class="table table-sm">``` in src/stubs/views/html/index.blade.stub
 - Add orderBy() to controller
 - Add folder includes in publish/views
+- ACL to actions controller and to views
 - and others
 
 ## Requirements
