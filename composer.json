@@ -34,7 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ribafs\\CrudGenerator\\": "src/"
+            "Ribafs\\CrudGeneratorAcl\\": "src/"
         },
         "classmap": [
             "tests"
@@ -43,7 +43,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ribafs\\CrudGenerator\\CrudGeneratorServiceProvider"
+                "Ribafs\\CrudGeneratorAcl\\CrudGeneratorAclServiceProvider"
             ]
         }
     }
