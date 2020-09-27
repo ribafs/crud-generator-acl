@@ -41,14 +41,14 @@ class CrudGeneratorServiceProvider extends ServiceProvider
     public function register()
     {
         $this->commands(
-            'Ribafs\CrudGenerator\Commands\CrudCommand',
-            'Ribafs\CrudGenerator\Commands\CrudControllerCommand',
-            'Ribafs\CrudGenerator\Commands\CrudModelCommand',
-            'Ribafs\CrudGenerator\Commands\CrudMigrationCommand',
-            'Ribafs\CrudGenerator\Commands\CrudViewCommand',
-            'Ribafs\CrudGenerator\Commands\CrudLangCommand',
-            'Ribafs\CrudGenerator\Commands\CrudApiCommand',
-            'Ribafs\CrudGenerator\Commands\CrudApiControllerCommand'
+            'Ribafs\CrudGeneratorAcl\Commands\CrudCommand',
+            'Ribafs\CrudGeneratorAcl\Commands\CrudControllerCommand',
+            'Ribafs\CrudGeneratorAcl\Commands\CrudModelCommand',
+            'Ribafs\CrudGeneratorAcl\Commands\CrudMigrationCommand',
+            'Ribafs\CrudGeneratorAcl\Commands\CrudViewCommand',
+            'Ribafs\CrudGeneratorAcl\Commands\CrudLangCommand',
+            'Ribafs\CrudGeneratorAcl\Commands\CrudApiCommand',
+            'Ribafs\CrudGeneratorAcl\Commands\CrudApiControllerCommand'
         );
     }
 }
