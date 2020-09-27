@@ -12,7 +12,7 @@ class CrudViewCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'crud:view
+    protected $signature = 'crud-acl:view
         {name : The name of the Crud.}
         {--fields= : The field names for the form.}
         {--view-path= : The name of the view path.}
