@@ -11,7 +11,7 @@ class CrudApiControllerCommand extends GeneratorCommand
      *
      * @var string
      */
-    protected $signature = 'crud:api-controller
+    protected $signature = 'crud-acl:api-controller
                             {name : The name of the controler.}
                             {--crud-name= : The name of the Crud.}
                             {--model-name= : The name of the Model.}
