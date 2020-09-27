@@ -4,7 +4,7 @@ namespace Ribafs\CrudGenerator;
 
 use Illuminate\Support\ServiceProvider;
 
-class CrudGeneratorAclServiceProvider extends ServiceProvider
+class CrudGeneratorServiceProvider extends ServiceProvider
 {
     /**
      * Indicates if loading of the provider is deferred.
