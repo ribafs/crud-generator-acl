@@ -12,7 +12,7 @@ class CrudCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'crud:generate
+    protected $signature = 'crud-acl:generate
                             {name : The name of the Crud.}
                             {--fields= : Field names for the form & migration.}
                             {--fields_from_file= : Fields from a json file.}
