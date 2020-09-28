@@ -10,6 +10,12 @@ use Illuminate\Support\Facades\Auth;
 
 class DummyClass extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware('auth');        
+    }
+
     public function index(Request $request)
     {
         $auth = Auth::user()->hasRole('super', 'admin');
