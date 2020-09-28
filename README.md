@@ -7,6 +7,9 @@
 
 This Generator package provides various generators like CRUD, API, Controller, Model, Migration, View for your painless development of your applications.
 
+## This is a fork from
+https://github.com/appzcoder/crud-generator
+
 ## Warning
 
 This fork have changes to appzcoder/crud-generator:
