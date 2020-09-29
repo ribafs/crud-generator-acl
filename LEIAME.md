@@ -1,5 +1,7 @@
 # Gerador de CRUDs para Laravel com suporte a ACL
 
+## Testado OK no Laravel 8
+
 ## Instalar e configurar um aplicativo
 
 ## Instalar gerador
