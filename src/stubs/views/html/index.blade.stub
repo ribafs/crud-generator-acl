@@ -32,7 +32,7 @@
                             <table class="table table-sm">
                                 <thead>
                                     <tr>
-                                        <th>ID</th>%%formHeadingHtml%%<th>Actions</th>
+                                        <th>ID</th>%%formHeadingHtml%%@role('super', 'manager')<th>Actions</th>@endrole
                                     </tr>
                                 </thead>
                                 <tbody>
