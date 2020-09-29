@@ -8,7 +8,7 @@
             @role('super', 'admin')
             <div class="col-md-9">
                 <div class="card">
-                    @role('super', 'manager')
+                    @role('super', 'admin')
                     <div class="card-header">%%crudNameCap%%</div>
                     <div class="card-body">
                         <a href="{{ url('/%%routeGroup%%%%viewName%%/create') }}" class="btn btn-success btn-sm" title="Add New %%modelName%%">
@@ -41,7 +41,7 @@
                                         <td>{{ $item->id }}</td>
                                         %%formBodyHtml%%
                                         <td>
-                                        @role('super', 'manager')
+                                        @role('super', 'admin')
                                             <a href="{{ url('/%%routeGroup%%%%viewName%%/' . $item->%%primaryKey%%) }}" title="View %%modelName%%"><button class="btn btn-info btn-sm"><i class="fa fa-eye" aria-hidden="true"></i> View</button></a>
                                             <a href="{{ url('/%%routeGroup%%%%viewName%%/' . $item->%%primaryKey%% . '/edit') }}" title="Edit %%modelName%%"><button class="btn btn-primary btn-sm"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit</button></a>
 
