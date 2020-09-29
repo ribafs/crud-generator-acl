@@ -21,7 +21,7 @@ class CrudControllerCommand extends GeneratorCommand
                             {--fields= : Field names for the form & migration.}
                             {--validations= : Validation rules for the fields.}
                             {--route-group= : Prefix of the route group.}
-                            {--pagination=25 : The amount of models per page for index pages.}
+                            {--pagination=5 : The amount of models per page for index pages.}
                             {--force : Overwrite already existing controller.}';
 
     /**
