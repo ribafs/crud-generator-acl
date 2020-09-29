@@ -19,6 +19,7 @@ This fork have changes to appzcoder/crud-generator:
 - Add orderBy() to controller
 - Add folder includes in publish/views
 - ACL to actions controller and to views
+- Errors views: 404, 402 and 500
 - and others
 
 ## Requirements
