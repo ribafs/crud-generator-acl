@@ -36,7 +36,7 @@ class DummyClass extends Controller
 
     public function create()
     {
-        $auth = Auth::user()->hasRole('super', 'manager');
+        $auth = Auth::user()->hasRole('super', 'admin');
         if((!$auth)){
             return view('home');
         }else{
@@ -46,7 +46,7 @@ class DummyClass extends Controller
 
     public function store(Request $request)
     {
-        $auth = Auth::user()->hasRole('super', 'manager', 'user');
+        $auth = Auth::user()->hasRole('super', 'manager');
         if((!$auth)){
             return view('home');
         }else{
