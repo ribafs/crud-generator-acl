@@ -8,7 +8,7 @@
 This Generator package provides various generators like CRUD, API, Controller, Model, Migration, View for your painless development of your applications.
 
 ## This is a fork from
-https://github.com/ribafs/crud-generator
+https://github.com/ribafs/laravel-crud-generator
 
 ## Warning
 
